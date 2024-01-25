@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Filter App</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+
+  <style>
+    body {
+      background-image: url('background.jpg');
+      background-size: cover; 
+    }
+    
+    h1 {
+      text-align: center;
+      font-family: sans-serif;
+      color: #333;
+    }
+    
+    #save-btn {
+      display: block;
+      margin: 20px auto;
+    }
+    
+    #canvas {
+      border: 2px solid #ccc;
+      margin: 0 auto;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 class="display-4 my-5">Image Filter App</h1>
+  
+  <button id="save-btn" class="btn btn-primary btn-lg">Save Image</button>
+
+  <canvas id="canvas" width="500" height="500"></canvas>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
